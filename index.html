@@ -90,26 +90,19 @@ Email: irosic2@gmail.com
 <footer>
 © 2026 Kyberna. All rights reserved.
 </footer>
+
   <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
 
 <script type="module">
   import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
   createChat({
-    webhookUrl: 'hhttps://n8n-qrx3.srv1761209.hstgr.cloud/webhook/81c05d73-d858-4bf6-a5c7-84db1fea725f/chat',
-    target: '#n8n-chat',
+    webhookUrl: 'https://n8n-qrx3.srv1761209.hstgr.cloud/webhook/81c05d73-d858-4bf6-a5c7-84db1fea725f/chat',
     mode: 'window',
     showWelcomeScreen: false,
     initialMessages: [
       'Hi! How can I help you?'
-    ],
-    i18n: {
-      en: {
-        title: 'Chat with us',
-        subtitle: 'Ask anything',
-        inputPlaceholder: 'Type your message...'
-      }
-    }
+    ]
   });
 </script>
 
